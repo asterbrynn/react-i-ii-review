@@ -3,10 +3,15 @@
 Answer these on your own, then compare answers as a group
 
 1.  What is state?
+      makes things interactive, changes data
+      asks a server for data, can update
 
 2.  Where do you set initial state?
+      in constructor()
 
 3.  What method do you use to update state?
+      setState()
+
 
 ### Understand
 

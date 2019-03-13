@@ -3,16 +3,24 @@
 Answer these on your own, then compare answers as a group
 
 1.  What is React?
+      JS library of functions that are provided for us to make our lives easier
+      sometimes things are hard and we like shortcuts, why reinvent the wheel?
 
 2.  What is create-react-app?
+      a way to download an app of react
 
 3.  What is Component Based Architecture?
+      using multiple components that are independent, but combined form the user interface
+      a component only knows itself and can be told things from its parent and can tell things to its children
 
 4.  What is JSX?
+      syntax of react that looks like HTML but is actually javascript
 
 5.  What is the virtual DOM?
+      simulation of the DOM that only updates what changed
 
 6.  What is unidirectional (one-way) data flow?
+    parent to child, not child to parent
 
 ### Understand
 
