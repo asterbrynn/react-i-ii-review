@@ -1,6 +1,6 @@
 import React from "react";
 
-function User(props) {
+export default function User(props) {
     return (
         <div>
             {props.friends.map(friend => (

@@ -7,7 +7,7 @@ Answer these on your own, then compare answers as a group
       asks a server for data, can update
 
 2.  Where do you set initial state?
-      in constructor()
+      in the constructor function
 
 3.  What method do you use to update state?
       setState()

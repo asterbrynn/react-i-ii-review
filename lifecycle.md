@@ -6,17 +6,17 @@ Use https://reactjs.org/docs/react-component.html#the-component-lifecycle and ht
       run code at specific times
 
 2.  What are the 4 categories of lifecycle methods? (these are the headings from the first link)
-    1. mounting
-    2. updating
-    3. unmounting
+    1. mounting *constructing/rendering/setting up initial values*
+    2. updating *when props/state changes*
+    3. unmounting *discarding the page*
     4. error handling
 
 3.  What are the names of the 5 commonly used lifecycle methods? (these are in bold in the first link)
     1. render()
     2. constructor()
-    3. componentDidMount()
-    4: componentDidUpdate()
-    5. componentWillUnmount()
+    3. componentDidMount() *runs after everything's been set up*
+    4: componentDidUpdate() *runs right after a setState()*
+    5. componentWillUnmount() *runs right before the page is discarded, e.g. pressing the back button*
 
 ### Understand
 

@@ -1,21 +1,28 @@
 import React, { Component } from "react";
 
-class Student extends Component {
+export default class Student extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      questionsAsked: 0
+      questionsAsked: 0,
+      questionsAnswered: 0
     };
-
-    this.handleClick = this.handleClick.bind(this);
   }
-  handleClick() {
-    this.setState({ questionsAnswered: this.state.questionsAsked + 1 });
+  handleClick= () => {
+    this.setState({ questionsAsked: this.state.questionsAsked + 1 });
+    console.log(this.studentInput)
+    this.setState(this.state.askQuestion(this.studentInput.value));
   }
   render() {
-    <div className="student-container">
-      boop
+    return <div className="student-container">
+      {this.state.questionsAnswered} questions answered
+      <br/>
+      <br/>
+      <input type="text" name="studentInput" placeholder="Type question here"/>
+      <button onClick={() => this.handleClick()}>Ask</button>
+      <br/>
+      {this.state.questionsAsked} questions asked
     </div>;
   }
 }
